@@ -49,5 +49,5 @@ def process_batch_pdfs(input_folder):
 
 # This function call is just a placeholder as the actual folder path needs to be provided.
 # You would call the function like this, assuming the PDFs are located in a folder named 'pdf_folder':
-# glued_file_path = process_batch_pdfs('/path/to/pdf_folder')
-# print(f"Generated glued text file at: {glued_text_file_path}")
+glued_file_path = process_batch_pdfs('./pdfs/')
+#print(f"Generated glued text file at: {glued_text_file_path}")
